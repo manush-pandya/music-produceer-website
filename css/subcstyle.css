@@ -1,0 +1,65 @@
+@font-face{
+	font-family:Attitude-regular;
+	src:url(../fonts/Attitude%20Full%20Family/Attitude-Regular.otf);
+}
+@font-face{
+	font-family:Building_Typeface;
+	src:url(../fonts/Building-Typeface/Building-Typeface/Building_Typeface.ttf)
+}
+.navbar{ position:fixed;
+		background-color:#0F0E0E;
+		overflow: hidden;
+		top:0;
+		width: 100%;
+		height: 50px;
+		margin-left:none;
+		padding-bottom: 20px;
+}
+
+.navbar a{
+	float:left;
+	display:block;
+	text-align: center;
+	padding:10px;
+	text-decoration:none;
+	background:#DCD0D0;
+	border-style:solid;
+	border-color:#0F0E0E; 
+}
+.navbar ul{
+	list-style-type:none;
+}
+.navbar a:hover{
+	background:#CD0A0D;
+	color: black;
+}
+
+.nfont{color:black;
+font-family:Building_Typeface;
+font-weight:900;
+font-size:20px;
+}
+
+.logo{
+	width:40px;
+	height:40px;
+	margin-left:275px;
+}
+
+body{
+	background-color:#0F0E0E;
+}
+.tfont2{
+	color:#988A8B;
+	font-family:building;
+	font-size:30px;
+}
+.tfont1{
+	color:#F4F4F4;
+	font-family:building;
+	font-size:40px;
+}
+.thank{
+	margin-top:200px;
+	margin-left: 350px;
+}
